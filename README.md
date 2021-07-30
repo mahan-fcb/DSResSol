@@ -14,3 +14,5 @@ Availability: The source code, datasets, and web server for this model is availa
   4. RUN `conda activate DsResSol`
   5. RUN `python main.py --sequence_only` to train the model with sequence only
   6. RUN `python main.py` to train the model with sequence and biological features
+
+If you have any question please contact me. mohammad73madani73@gmail.com
