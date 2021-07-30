@@ -1,0 +1,47 @@
+model_config:
+
+  x_input:
+    shape: 1200
+
+  kfold: 10
+  random_state: 1
+  max_pad_length: 1200
+
+  sequence_only:
+    optimizer:
+      adam:
+        learning_rate: 0.0004
+    epochs: 30
+    batch_size: 100
+
+  sequence_and_biological:
+    input2: 
+      shape: 110
+    optimizer:
+      adam:
+        learning_rate: 0.0003
+    epochs: 20
+    batch_size: 80
+
+
+construct:
+  residual_block:
+    leaning_rate: 0.001
+  synthesis_block:
+    num_filters: 2
+    kernal_size: 3
+    axis: -1
+    strides: 1
+    alpha: 0.2
+
+
+
+
+data_files:
+  df_train: "data/train_seq.p"
+  df_test1: "data/test_seq.p"
+  dt: "data/train_biological.p"
+  dk1: "data/test_biological.p"
+  df_test: "data/nsseq.csv"
+  dk: "data/nsg_fea.csv"
+save: "saved_models"
