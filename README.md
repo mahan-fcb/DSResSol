@@ -15,10 +15,11 @@ Availability: The source code, datasets, and web server for this model is availa
   5. RUN `python main.py --sequence_only` to train the model with sequence only
   6. RUN `python main.py` to train the model with sequence and biological features
   7. for testing your petides Please use following steps:
-  8. Go to test directory:
-  9. Please open INPY fie in jupyter notebook. 
+  8. Go to most accurate model directory:
+  9. Please open test.ipynb fie in jupyter notebook. 
  10. Make a CVS file from your own peptide exactly similar what I have done in peptide.csv file. (remove my sequences in this file and replace your own sequence.    header must be "Seq")
  11. Then just need to run INPY file in jupyter and receive the solubility values for your sequences.
+ 12. most accurat model path is also is in this directory
 
 
 Please let me know if you have any questions.
