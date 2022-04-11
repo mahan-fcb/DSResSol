@@ -14,5 +14,12 @@ Availability: The source code, datasets, and web server for this model is availa
   4. RUN `conda activate DsResSol`
   5. RUN `python main.py --sequence_only` to train the model with sequence only
   6. RUN `python main.py` to train the model with sequence and biological features
+for testing your petides Please use following steps:
+Go to test directory:
+Please open INPY fie in jupyter notebook. 
+Make a CVS file from your own peptide exactly similar what I have done in peptide.csv file. (remove my sequences in this file and replace your own sequence. header must be "Seq")
+Then just need to run INPY file in jupyter and receive the solubility values for your sequences.
 
+
+Please let me know if you have any questions.
 If you have any question please contact me. mohammad73madani73@gmail.com
