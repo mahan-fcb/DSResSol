@@ -21,6 +21,6 @@ Availability: The source code, datasets, and web server for this model is availa
  11. Then just need to run INPY file in jupyter and receive the solubility values for your sequences.
  12. most accurat model path is also is in this directory
 
-
-Please let me know if you have any questions.
 If you have any question please contact me. mohammad73madani73@gmail.com
+
+Also, if you need to test your peptides and it has difficulty for you. please share your peptides to me and I will send the solubility to you.
